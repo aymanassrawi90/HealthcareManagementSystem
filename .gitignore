@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/HealthcareManagementSystem.ConsoleApp/bin/Debug/net8.0
+/HealthcareManagementSystem.ConsoleApp/obj/Debug/net8.0
+/HealthcareManagementSystem.ConsoleApp/obj
+/HealthcareManagementSystem.Domain/bin/Debug/net8.0
+/HealthcareManagementSystem.Domain/obj
+/HealthcareManagementSystem.Infrastructure
+/HealthcareManagementSystem.Tests
+/HealthcareManagementSystem.Application/obj
+/HealthcareManagementSystem.Application/bin/Debug/net8.0
