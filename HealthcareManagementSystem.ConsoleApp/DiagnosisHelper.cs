@@ -27,9 +27,10 @@ namespace HealthcareManagementSystem.ConsoleApp
             var newDiagnoses = new List<Diagnosis>();
 
             // Prompt the user until they type 'done' to stop selecting diagnoses
+            var message = (2 != null && diagnosesList.Count > 0) ? "Enter the number of the diagnosis to assign, or type 'new' to add a new diagnosis, or type 'done' to finish:" : "No Available Diagnoses on system Enter new' to add a new diagnosis, or type 'done' to finish:";
+
             while (true)
             {
-                var message = (2!=null && diagnosesList.Count >0) ? "Enter the number of the diagnosis to assign, or type 'new' to add a new diagnosis, or type 'done' to finish:": "No Available Diagnoses on system Enter new' to add a new diagnosis, or type 'done' to finish:";
                 var input = helper.ReadOptionalInput(message, "done");
 
                 if (input?.ToLower() == "done")
