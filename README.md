@@ -19,13 +19,22 @@ Navigate to the Project Directory
 - dotnet run
 
 Once the application is running, you will see the following options:
+
 Select an option:
+
 P. Patient Management
+
 M. Medical Center Management
+
 V. Visit Management
+
 R. Medical Record Management
+
+
 D. Diagnosis Management
+
 0. Exit
+   
 You can choose one of the options to manage patients, medical centres, visits, medical records, or diagnoses.
 
 FYI:
