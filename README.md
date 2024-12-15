@@ -26,7 +26,7 @@ V. Visit Management
 R. Medical Record Management
 D. Diagnosis Management
 0. Exit
-You can choose one of the options to manage patients, medical centers, visits, medical records, or diagnoses.
+You can choose one of the options to manage patients, medical centres, visits, medical records, or diagnoses.
 
 FYI:
 The data in this application is stored in memory using an in-memory database (InMemoryDatabase). This means that all data will be lost once the application is closed. You can modify the application to use a persistent database if needed in the future.
